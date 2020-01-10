@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Generate a new MVCM module consisting of the view, interactor, presenter file.</string>
+	<key>Summary</key>
+	<string>MVCM MODULE</string>
+	<key>Name</key>
+	<string>MVCM</string>
+	<key>MainTemplateFile</key>
+	<string>___FILENAME___</string>
+	<key>DefaultCompletionName</key>
+	<string></string>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Module Name:</string>
+			<key>Description</key>
+			<string>The name of the VIPER modeule to create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>
